@@ -1,28 +1,26 @@
-🤖 AI Assistant with Tool Use & Streaming
-This project creates a smart AI assistant agent that can answer general knowledge questions and call external tools like a weather API — all with real-time streamed output.
+# 🤖 AI Assistant with Tool Use & Streaming
 
-🚀 Features
-✅ Smart AI Agent
-Answers general questions using an LLM model and follows detailed instructions.
+This project creates a smart AI assistant agent that can answer general knowledge questions and call external tools like a weather API — all with **real-time streamed output**.
 
-🌦️ Weather Tool Integration
-Calls a live Weather API to fetch current temperature and condition for any city.
+---
 
-🔄 Streaming Support
-Uses Runner.run_streamed() to provide real-time streaming output as the assistant thinks, responds, and uses tools.
+## 🚀 Features
 
-🧰 Tool Call Awareness
-Auto-detects when a tool is needed (like weather info) and calls it on the fly during conversation.
+- ✅ **Smart AI Agent**  
+  Answers general questions using an LLM model and follows detailed instructions.
 
-🧪 Example Prompt
-Prompt: "Write in 100 lines summary of Pakistan and get the current weather of its capital"
+- 🌦️ **Weather Tool Integration**  
+  Calls a live Weather API to fetch current temperature and condition for any city.
 
-💡 What Happens:
-Agent writes a detailed 100-line summary of Pakistan.
+- 🔄 **Streaming Support**  
+  Uses `Runner.run_streamed()` to provide real-time streaming output as the assistant thinks, responds, and uses tools.
 
-Recognizes Islamabad as the capital.
+- 🧰 **Tool Call Awareness**  
+  Auto-detects when a tool is needed (like weather info) and calls it on the fly during conversation.
 
-Calls the getWeather() tool to get live weather of Islamabad.
+---
 
-All responses and tool outputs are streamed live in the terminal.
+## 🧪 Example Prompt
 
+```text
+"Write in 100 lines summary of Pakistan and get the current weather of its capital"
